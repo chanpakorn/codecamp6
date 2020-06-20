@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML-Lab2 : การหาข้อมูล Tag</h1>
+    <div>1.ค้นหาข้อมูลว่าแท็ก &lt;!doctype&gt; มีหน้าที่อะไร </div>
+    <div>Ans.ประกาศชนิดของเอกสาร เพื่อให้ Web browser รับทราบและจัดเตรียมวิธีการประมวลผลสำหรับเอกสารนั้นได้อย่างถูกต้อง
+    </div>
+    <hr>
+    <div>2.ถ้าอยากให้มี tooltip ใน tag นั้นต้องใช้ attribute ใด?</div>
+    <div>Ans.ใช้ attribute title</div>
+    <hr>
+    <div>3.แท็ก &lt;b&gt; &lt;i&gt; ต่างจาก &lt;strong&gt; &lt;i&gt; หรือไม่อย่างไร</div>
+    <div>Ans.&lt;b&gt;และ&lt;strong&gt; ทำตัวหนาเหมือนกัน , &lt;i&gt; &lt;i&gt; ทำตัวเอียงเหมือนกัน <br>
+        &lt;strong&gt;และ&lt;em&gt; ใช้สำหรับ text ที่มีความสำคัญ <br>&lt;b&gt;และ&lt;i&gt; ใช้กับ text
+        ที่ไม่มีความสำคัญ
+        <hr>
+    </div>
+    <div>4.หา tag ที่สามารถแสดงข้อความกลับหลังได้</div>
+    <div>tag bdo ใช้ attribute dir</div>
+    <bdo dir="rtl">Ex.What is your name?</bdo>
+    <hr>
+
+    <h1>HTML-Lab3 : Form</h1>
+    <form action="index.html">
+        <fieldset>
+            <div><b>Pizza Shop 2.0</b></div>
+            <label for="fname">Name:</label>
+            <input type="text" name="name"><br>
+            <label for="topping">Pizza Topping</label>
+            <input type="radio" name="topping" value="supreme">Supreme</input>
+            <input type="radio" name="topping" value="vegetarian">Vegetarian</input>
+            <input type="radio" name="topping" value="hawaiian">Hawaiian</input> <br>
+            <label for="sauce">Pizza Sauce </label>
+            <select name="sauce">
+                <option value="tomato">Tomato</option>
+                <option value="barbeque">Barbeque</option>
+                <option value="mayonnaise">Mayonnaise</option>
+                <option value="secret">Secret Sauce</option>
+            </select><br>
+            <label for="delivery instruction">delivery instruction</label>
+            <textarea name="delivery" cols="50" rows="4"></textarea><br>
+            <input type="submit" value="Send my Order">
+        </fieldset> <hr>
+    </form>
+  
+</body>
+
+</html>
